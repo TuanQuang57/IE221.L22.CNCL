@@ -23,6 +23,7 @@ print('1')
 (boxes, confidence_val) = Img_p.predictions(scores, geometry)
 fianl_boxes = Img_p.finalBox(net)
 #output = Img_p.output(image_copy, fianl_boxes)
+
 # Processing text on image
 print('2')
 converted = text_proessing.converted(boxes)
