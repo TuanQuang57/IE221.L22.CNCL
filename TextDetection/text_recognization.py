@@ -12,7 +12,6 @@ from LoadImg_ModelEAST import t
 from imutils.object_detection import non_max_suppression
 pytesseract.pytesseract.tesseract_cmd = r'D:\IT\Python3\Tesseract-OCR\tesseract.exe'
 
-
 class text_recog(Img_proc):
     def __init__(self):
         Img_proc.__init__(self)
